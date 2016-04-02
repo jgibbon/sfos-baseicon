@@ -12,6 +12,10 @@ without any classes, the shape is a circle, but you can add corners by adding th
 (id="clippedContent") for them to be cut into that shape. You should probably change the
 black Background Rectangle as well.
 
+By default, the class is "`tl tr`" and clips content like this:
+
+![class tl tr](https://i.imgur.com/9eYZatt.png)
+
 ### Sizes
 On a linux bash with Inkscape you could do something like the following to export
 the png file to different sizes:
