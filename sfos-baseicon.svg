@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="86px"
+height="86px"
+class="tl tr"
+>
+<style type="text/css" >
+  <![CDATA[ #maskTopRight, #maskTopLeft, #maskBottomRight, #maskBottomLeft { display: none;}
+    .tr #maskTopRight, .tl #maskTopLeft, .br #maskBottomRight, .bl #maskBottomLeft { display: inline; }
+  ]]>
+</style>
+  <defs>
+    <clipPath id="edgeClip" >
+      <circle id="maskBaseCircle" cx="43" cy="43" r="42.69" />
+          <path id="maskTopRight" d="M 84.277,0.3 43,0.3 85.7,43 85.7,1.723 C 85.7,0.937 85.063,0.3 84.277,0.3 Z" />
+          <path id="maskTopLeft" d="M 1.723,0.3 43,0.3 0.3,43 0.3,1.723 C 0.3,0.937 0.937,0.3 1.723,0.3 Z" />
+          <path id="maskBottomRight" d="M 84.277,85.7 43,85.7 85.7,43 l 0,41.277 c 0,0.786 -0.637,1.423 -1.423,1.423 z" />
+          <path id="maskBottomLeft" d="M 1.723,85.7 43,85.7 0.3,43 l 0,41.277 c 0.3,0.786 0.637,1.423 1.423,1.423 z" />
+    </clipPath>
+  </defs>
+  <g id="clippedContent" clip-path="url(#edgeClip)" >
+    <rect x="0" y="0" width="86" height="86"  />
+  </g>
+</svg>
